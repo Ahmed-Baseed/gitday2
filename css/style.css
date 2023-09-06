@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&display=swap');
+
+* {
+    font-family: 'El Messiri', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #2F3E46;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #CAD2C5;
+    font-weight: 600;
+    font-size: 3em;
+}
+.logo:hover {
+    text-decoration: none;
+    color: #CAD2C5;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #CAD2C5;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 1.2em;
+
+}
+
+header nav a:hover {
+    background-color: #CAD2C5;
+    border-radius: 50px;
+    color: #2F3E46;
+    transition: 0.2s;
+}
+
+.main {
+    padding: 100px 150px;
+    background-color: #84A98C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cont {
+    color: #2F3E46;
+    font-size: 1.5em;
+    padding-right: 40px;
+}
+
+.cont a {
+    padding-left: 20px;
+    color: #52796F;
+    font-size: 1.6em;
+}
+
+.cont a:hover {
+    transition: 0.5s;
+    color: #2F3E46;
+}
+
+.cards {
+    padding: 100px 150px;
+    background-color: #CAD2C5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.cards h1{
+    padding-top: 20px;
+    font-size: 3em;
+    color: #2F3E46;
+}
